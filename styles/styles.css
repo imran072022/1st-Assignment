@@ -89,3 +89,44 @@ nav {
 .right-side {
     border-radius: 48px;
 }
+
+/*Productive Users Section Styling*/
+.users-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #4d47ff10;
+    text-align: center;
+    border-radius: 24px;
+    margin-bottom: 137px;
+}
+
+.users-title {
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    padding: 50px 40px;
+}
+
+.stat-number {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+    padding: 0;
+
+}
+
+.stat-label {
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000050;
+    padding: 0 0 50px 0;
+    margin: 0;
+}
+
+.users-info {
+    display: flex;
+    gap: 158px;
+    justify-content: center;
+    align-items: center;
+}

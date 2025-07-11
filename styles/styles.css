@@ -22,6 +22,14 @@ body {
     box-sizing: border-box;
 }
 
+.green {
+    background: linear-gradient(to bottom, #F2FCFA, #F0FFF4);
+}
+
+.red {
+    background: linear-gradient(to bottom, #F0FFF4, #FFF5F5);
+}
+
 /*SHARED ITEMS*/
 .button {
     font-weight: bold;
@@ -75,7 +83,6 @@ nav {
 
 }
 
-
 .nav-button:hover {
     background-color: #0800ff;
 }
@@ -93,7 +100,7 @@ nav {
     color: white;
 }
 
-/*ACTION SECTION STYLING*/
+/*ACTION SECTION STYLING (1)*/
 .action {
     display: flex;
     justify-content: center;
@@ -120,11 +127,30 @@ nav {
     border-radius: 48px;
 }
 
-/*PRODUCTIVE USERS SECTION STYLING*/
+.action-button {
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 13px 38px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+
+}
+
+.action-button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+/*PRODUCTIVE USERS SECTION STYLING (2)*/
 .users-section {
     max-width: 1140px;
     margin: 0 auto;
-    background-color: #4d47ff10;
+    background-color: #4E47FF10;
     text-align: center;
     border-radius: 24px;
     margin-bottom: 137px;
@@ -140,7 +166,7 @@ nav {
 .stat-number {
     font-size: 80px;
     font-weight: bold;
-    color: #4E47FF;
+    color: #00b344;
     margin: 0;
     padding: 0;
 
@@ -161,7 +187,7 @@ nav {
     align-items: center;
 }
 
-/*FEEDBACK SECTION STYLING*/
+/*FEEDBACK SECTION STYLING (3)*/
 .feedback-section {
     width: 1140px;
     margin: 0 auto 137px auto;
@@ -187,6 +213,7 @@ nav {
     padding: 24px;
     border-radius: 14px;
     border: 1px solid #F2EDED;
+    font-family: "Inter", sans-serif;
 }
 
 .users-name,
@@ -201,7 +228,7 @@ nav {
     justify-content: flex-start;
 }
 
-/* WEBFLOW CONF SECTION STYLING (Optional Section)*/
+/* WEBFLOW CONF SECTION STYLING (Optional Section) (4)*/
 .webflow-conference {
     width: 1140px;
     border-radius: 14px;
@@ -227,13 +254,28 @@ nav {
 
 .conf-button {
     margin-bottom: 20px;
+
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 13px 38px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+}
+
+.conf-button:hover {
+    transform: translateY(-5%);
 }
 
 .conf-img {
     border-radius: 48px;
 }
 
-/*LET'S GET IN TOUCH / FORM SECTION*/
+/*LET'S GET IN TOUCH / FORM SECTION (5) */
 .form-section {
     max-width: 1140px;
     margin: 0 auto 14px auto;
@@ -281,24 +323,28 @@ textarea {
     border: 1px solid #D6DDED;
     border-radius: 10px;
     width: 497px;
-    height: 135px;
+    height: 147px;
     font-size: 20px;
     font-weight: 400;
-    padding: 32px 20px;
+    padding: 20px 20px;
 }
 
 .form-button {
     padding: 19px 101px;
-    font-size: 16px;
-    background-color: #4E47FF;
-    color: white;
-    border-radius: 10px;
+    font-size: 18px;
     font-weight: bold;
+    color: white;
     border: none;
+    border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 6px 0 #3b38cc;
-    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    background: linear-gradient(135deg, #ff9472, #f2709c, #ff6a6a);
+    transition: background 0.3s ease;
 }
+
+.form-button:hover {
+    background: linear-gradient(135deg, #f88c7f, #e94b85, #ff5252);
+}
+
 
 label,
 input:not([type="submit"]),
@@ -346,7 +392,7 @@ footer {
 
 .footer-nav a {
     text-decoration: none;
-    color: #8987A1;
+    color: black;
 
 }
 

@@ -149,6 +149,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .users-feedback {
@@ -168,4 +169,36 @@ nav {
     display: flex;
     gap: 12px;
     justify-content: flex-start;
+}
+
+/* WEBFLOW CONF SECTION STYLING (Optional Section)*/
+.webflow-conference {
+    width: 1140px;
+    border-radius: 14px;
+    margin: auto;
+    padding: 71px 150px;
+    border: 1px solid;
+}
+
+.conf-info {
+    text-align: center;
+}
+
+.conf-title {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.conf-desc {
+    color: rgba(0, 0, 0, 0.50);
+    margin-bottom: 20px;
+}
+
+.conf-button {
+    margin-bottom: 20px;
+}
+
+.conf-img {
+    border-radius: 48px;
 }

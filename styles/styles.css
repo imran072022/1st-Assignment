@@ -130,3 +130,42 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
+/*FEEDBACK SECTION STYLING*/
+.feedback-section {
+    width: 1140px;
+    margin: 0 auto 137px auto;
+}
+
+.feedback-section-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users-feedback {
+    background-color: white;
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+}
+
+.users-name,
+.comment-date {
+    margin: 0px;
+    color: #757575;
+}
+
+.users-profile {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+}

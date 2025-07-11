@@ -9,14 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Eater&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Eater&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
 
 <body class="raleway-font">
+    <!--HEADER STYLING-->
     <header>
         <nav>
-            <div class="logo">LOGO</div>
+            <div class="logo inter-font">LOGO</div>
             <button class="nav-button button">Sign Up</button>
         </nav>
         <div class="banner">
@@ -26,7 +27,7 @@
         </div>
     </header>
     <main>
-        <!--ACTION SECTION-->
+        <!--ACTION SECTION (1)-->
         <section class="action">
             <div class="left-side">
                 <h2 class="left-side-title">See It in Action</h2>
@@ -36,10 +37,10 @@
             </div>
             <img class="right-side" src="Assets/wc-mini.png" alt="">
         </section>
-        <!--PRODUCTIVE USERS SECTION-->
+        <!--PRODUCTIVE USERS SECTION (2)-->
         <section class="users-section">
             <h2 class="users-title">Joined Thousands of Productive Users</h2>
-            <div class="users-info">
+            <div class="users-info inter-font">
                 <div class="users-stats">
                     <p class="stat-number">50K+</p>
                     <p class="stat-label">Active Users</p>
@@ -55,7 +56,7 @@
             </div>
 
         </section>
-        <!--USERS FEEDBACK SECTION-->
+        <!--USERS FEEDBACK SECTION (3)-->
         <section class="feedback-section">
             <h1 class="feedback-section-title">What our users say </h1>
             <div class="container">
@@ -124,7 +125,7 @@
                 </div>
             </div>
         </section>
-        <!--WEBFLOW CONF SECTION (Optional Section)-->
+        <!--WEBFLOW CONF SECTION (Optional Section) (4)-->
         <section class="webflow-conference">
             <div class="conf-info">
                 <div class="info">
@@ -135,10 +136,10 @@
                 <img class="conf-img" src="Assets/wc-big.png" alt="Webflow Conference 2022">
             </div>
         </section>
-        <!--LET'S GET IN TOUCH/FORM SECTION-->
+        <!--LET'S GET IN TOUCH/FORM SECTION (5)-->
         <section class="form-section">
             <h1 class="form-section-title">Let's Get in Touch</h1>
-            <form accept="">
+            <form action="">
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="" placeholder="example@gmail.com">
@@ -151,13 +152,24 @@
                     <label for="message">Message</label>
                     <textarea cols="30" rows="10" placeholder="Write your message...."></textarea>
                 </div>
-                <input class="form-button button" type="submit" value="Get in Touch">
+                <input class="form-button" type="submit" value="Get in Touch">
             </form>
         </section>
-
-
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer-content">
+            <h1 class="footer-title"> LOGO</h1>
+            <p class="footer-description">Ready to elevate your online presence? Contact us today to discuss
+                your
+                project and discover how we can bring your vision to life.</p>
+            <div class="footer-nav">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">How it Works</a>
+                <a href="">Services</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

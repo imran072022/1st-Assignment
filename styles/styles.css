@@ -1,27 +1,38 @@
+/*RAILWAY & INTER font installed*/
 .raleway-font {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/*BODY STYLING*/
 body {
     margin: 0;
-    background-color: #F5F8FF;
+    background-color: #F2FCFA;
+    ;
 }
 
 * {
     box-sizing: border-box;
 }
 
-/*Shared Items*/
+/*SHARED ITEMS*/
 .button {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 17px;
     color: white;
     border-radius: 10px;
-    padding: 12px 36px;
+    padding: 13px 38px;
     background-color: #4E47FF;
     border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 /*HEADER STYLING*/
@@ -64,7 +75,25 @@ nav {
 
 }
 
-/*Action Section Styling*/
+
+.nav-button:hover {
+    background-color: #0800ff;
+}
+
+.banner-button {
+    border: none;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+    box-shadow: 1px 1px 10px 1px #0800ff;
+}
+
+.banner-button:hover {
+    background-color: #0800ff;
+    color: white;
+}
+
+/*ACTION SECTION STYLING*/
 .action {
     display: flex;
     justify-content: center;
@@ -91,7 +120,7 @@ nav {
     border-radius: 48px;
 }
 
-/*Productive Users Section Styling*/
+/*PRODUCTIVE USERS SECTION STYLING*/
 .users-section {
     max-width: 1140px;
     margin: 0 auto;
@@ -260,4 +289,68 @@ textarea {
 
 .form-button {
     padding: 19px 101px;
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #3b38cc;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+label,
+input:not([type="submit"]),
+textarea {
+    font-family: "Inter", sans-serif;
+}
+
+input[type="submit"] {
+    font-family: "Raleway", sans-serif;
+}
+
+/* FOOTER STYLING*/
+footer {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-content {
+    width: 531px;
+    margin: auto;
+    text-align: center;
+    padding: 104px 0;
+}
+
+.footer-title {
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+
+.footer-description {
+    color: #8987A1;
+    margin: 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 20px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #8987A1;
+
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+    color: black;
 }
